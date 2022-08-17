@@ -1,0 +1,250 @@
+.root {
+  margin-top: 3.5rem;
+  padding-top: 1rem;
+  margin-right: 1.5rem;
+  padding-bottom: 1rem;
+  background-color: rgb(234, 243, 249);
+}
+.root2 {
+  background: unset;
+}
+html {
+  height: 100%;
+}
+
+h2 {
+  font-weight: bold;
+}
+p {
+  color: rgb(133, 131, 131);
+}
+.heading-row {
+  background-color: #eaeaea;
+}
+#form {
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+#form fieldset {
+  background: white;
+  border: 0 none;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.finish {
+  text-align: center;
+}
+
+#form fieldset:not(:first-of-type) {
+  display: none;
+}
+
+#form .previous-step,
+.next-step {
+  width: 100px;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 0px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px 10px 0px;
+  float: right;
+}
+
+.form,
+.previous-step {
+  background: #616161;
+}
+
+.form,
+.next-step {
+  background: #2f8d46;
+}
+
+#form .previous-step:hover,
+#form .previous-step:focus {
+  background-color: #000000;
+}
+
+#form .next-step:hover,
+#form .next-step:focus {
+  background-color: #2f8d46;
+}
+
+.text {
+  color: #2f8d46;
+  font-weight: normal;
+}
+
+#createNewCampaign {
+  height: 3rem;
+  width: 14rem;
+  border-radius: 0.5rem;
+}
+.card-header {
+  background-color: #ffffff;
+}
+#progressbar {
+  margin-bottom: 30px;
+  overflow: hidden;
+  color: lightgrey;
+}
+
+#progressbar .active {
+  color: black;
+}
+
+#progressbar li {
+  list-style-type: none;
+  font-size: 15px;
+  width: 25%;
+  float: left;
+  position: relative;
+  font-weight: 400;
+}
+@import url("https://use.fontawesome.com/releases/v5.15.4/js/all.js");
+#progressbar #step1:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f0eb";
+  font-weight: 900;
+}
+
+#progressbar #step2:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f793";
+  font-weight: 900;
+}
+
+#progressbar #step3:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f073";
+  font-weight: 900;
+}
+
+#progressbar #step4:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f058";
+  font-weight: 900;
+}
+
+#progressbar li:before {
+  width: 50px;
+  height: 50px;
+  line-height: 45px;
+  display: block;
+  font-size: 20px;
+  color: #ffffff;
+  background: lightgray;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+  padding: 2px 16px;
+}
+
+#progressbar li:after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: lightgray;
+  position: absolute;
+  left: 0;
+  top: 25px;
+  z-index: -1;
+}
+
+#progressbar #step1:after {
+  margin-left: 50% !important;
+}
+
+#progressbar #step4:after {
+  width: 50% !important;
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+  background: #ffb963;
+}
+
+.progress {
+  height: 20px;
+}
+
+.progress-bar {
+  background-color: #2f8d46;
+}
+:root {
+  --navBg: #162264;
+}
+.menu-bars {
+  margin-left: 1rem;
+  font-size: 2rem;
+}
+.background {
+  background-color: #0f6eff;
+  border-radius: 50%;
+  height: 2.8rem;
+  width: 2.8rem;
+}
+
+.nav-menu {
+  background-color: var(--navBg);
+  width: 70px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-text {
+  display: flex;
+  align-items: center;
+  padding: 8px 0 8px 0;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 18px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
+.nav-text:hover {
+  background-color: #414a7d;
+}
+
+.nav-menu-items {
+  width: 100%;
+  padding: 0;
+}
+
+.navbar-toggle {
+  background-color: var(--navBg);
+  width: 100%;
+  height: 130px;
+  display: flex;
+  align-items: center;
+}
+.border-radius {
+  border-radius: 50%;
+}
